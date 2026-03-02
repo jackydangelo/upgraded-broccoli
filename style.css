@@ -1,5 +1,5 @@
 :root {
-    --accent: #F7D0A1;
+    --accent: #C8D3C0;
     --font: #666;
 }
 
@@ -407,7 +407,7 @@ body {
     width: 40px;
     height: 40px;
     /* border: 1px red solid; */
-    background-color: #F8DAB4;
+    background-color: #C8D3C0;
     outline: none;
     text-decoration: none;
     transition: background-color 0.2s ease;
