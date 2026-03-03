@@ -397,17 +397,17 @@ body {
 
 /* —───────────── layout affiancato da ≥700 px ───────────── */
 @media (min-width: 700px) {
-    .story-wrapper {
+    .iban-wrapper {
         flex-direction: row;
         align-items: center;
     }
 
-    .story-photo,
-    .story-text {
+    .iban-photo,
+    .iban-text {
         flex: 1 1 50%;
     }
 
-    .story-text {
+    .iban-text {
         padding-left: 2.5rem;
         /* un po’ di respiro fra immagine e testo */
     }
@@ -500,14 +500,6 @@ body {
         font-size: 1rem;
     }
 
-    /* 7. Story “Come ci siamo conosciuti” */
-    .story-text {
-        font-size: 1rem;
-    }
-
-    .story-heading {
-        font-size: 1.3rem;
-    }
 
     /* 8. Gift / IBAN */
     .gift-text {
