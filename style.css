@@ -352,7 +352,7 @@ body {
     letter-spacing: 1px;
 }
 
-<!-- ───────────────────────── Story / Come ci siamo conosciuti ───────────────────────── 
+/* ───────────────────────── Story / Come ci siamo conosciuti ───────────────────────── 
 .story {
     background: var(--accent);
     padding: 4rem 1rem 6rem;
@@ -393,7 +393,7 @@ body {
     font-size: 1.5rem;
     margin: 0 0 1rem;
 } 
--->
+/*
 
 /* —───────────── layout affiancato da ≥700 px ───────────── */
 @media (min-width: 700px) {
@@ -529,10 +529,9 @@ body {
         letter-spacing: .5px;
     }
 
-    <!-- c) Titolo – Come ci siamo conosciuti 
+   /* c) Titolo – Come ci siamo conosciuti 
     .story-title {
         font-size: 2.25rem;
-        /* prima ~3rem */
     }
-    -->
+    */
 }
