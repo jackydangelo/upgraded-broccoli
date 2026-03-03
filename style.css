@@ -352,21 +352,21 @@ body {
     letter-spacing: 1px;
 }
 
-/* ───────────────────────── Story / Come ci siamo conosciuti ───────────────────────── 
-.story {
+───────────────────────── IBAN ───────────────────────── 
+.iban {
     background: var(--accent);
     padding: 4rem 1rem 6rem;
     color: var(--font);
 }
 
-.story-title {
+.iban-title {
     font-family: "Great Vibes", cursive;
     font-size: clamp(3rem, 3.5vw, 2.5rem);
     margin: 0 0 3rem;
     text-align: center;
 }
 
-.story-wrapper {
+.iban-wrapper {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -374,7 +374,7 @@ body {
     margin: 0 auto;
 }
 
-.story-photo {
+.iban-photo {
     width: 100%;
     max-width: 540px;
     object-fit: cover;
@@ -382,18 +382,18 @@ body {
     /* mantiene la foto centrata su mobile */
 }
 
-.story-text {
+.iban-text {
     font-size: 1.1rem;
     line-height: 1.7;
 }
 
-.story-heading {
+.iban-heading {
     font-family: "Playfair Display", serif;
     font-style: italic;
     font-size: 1.5rem;
     margin: 0 0 1rem;
 } 
-/*
+
 
 /* —───────────── layout affiancato da ≥700 px ───────────── */
 @media (min-width: 700px) {
@@ -529,9 +529,4 @@ body {
         letter-spacing: .5px;
     }
 
-   /* c) Titolo – Come ci siamo conosciuti 
-    .story-title {
-        font-size: 2.25rem;
-    }
-    */
 }
