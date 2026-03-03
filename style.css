@@ -212,12 +212,18 @@ body {
     text-align: center;
 }
 
-.detail-card img { 
-    width: 100%; aspect-ratio: 4 / 3; /* oppure 3/2, 1/1, 16/9 */ 
-    object-fit: cover; 
-    display: block; 
-    margin-bottom: 25px; 
+.detail-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    /* image touches card edges */
 }
+
 .detail-card h3 {
     font-family: "Playfair Display", serif;
     font-style: italic;
